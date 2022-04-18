@@ -1,0 +1,39 @@
+.artistas {
+	margin: 30px;
+	
+	h1 {
+		text-align: center;
+		font-size: 1rem;
+		@media (min-width: 768px) {
+
+
+		
+				font-size: 2.5rem;
+			
+		}
+	}
+
+	.card {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		.btn2 {
+			background-color: green;
+			color: white;
+		}
+	}
+
+	.artistas1 {
+		@media (min-width: 768px) {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			.card {
+				width: 43%;
+			}
+
+
+		}
+		
+	}
+}

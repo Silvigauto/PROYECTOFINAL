@@ -1,0 +1,34 @@
+// variables, maps, mixins y extends
+
+$paleta: (
+	'color1': violet,
+	'color2': lightblue,
+	'color3': pink,
+	'color4': white,
+	'color5': rgba(75, 39, 83, 0.6),
+	'color6': darkgrey,
+	'color7': rgba (93,113,196),
+	'color8': #002D62,
+ 
+
+	);
+
+.flex1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tamanoImg {
+	width: 250px;
+	height: 200px;
+}
+
+.flex2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+

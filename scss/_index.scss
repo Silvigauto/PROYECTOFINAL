@@ -1,0 +1,207 @@
+.banner {
+	font-size: 0.7rem;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	background-color: whitesmoke;
+	@media (min-width: 768px) {
+		font-size: 1rem;
+	}
+
+
+}
+
+// botonera 
+
+.nav1 {
+	background-color: map-get($map:$paleta,$key:'color8');
+	padding: 20px;
+	box-shadow:  1px 12px 15px -8px rgba(94,94,94,0.75);
+
+	
+	
+ul li a:hover {		
+	transform: scale(1.1);
+	transition: 0.3s;
+	}
+
+	
+}
+
+.navUl {
+	@extend .flex1;
+	@media (min-width: 992px) {
+		padding-right: 70px;
+	}
+	
+	
+}
+
+.logo {
+	width: 130px;
+
+	@media (min-width: 768px) {
+		width: 250px;
+		&:hover {
+			
+		transform: scale(1.1);
+		transition: 0.3s;
+		}
+		
+	}
+
+	@media (min-width: 992px) {
+		 padding-left: 70px;
+	} 
+
+}
+
+// carousel
+
+.festival7 {
+	@media (min-width: 280px) {
+		height: 300px;
+	}
+
+	@media (min-width: 768px) {
+		height: 500px;
+	}
+}
+
+.wos {
+	@extend .festival7;
+}
+
+.festival5 {
+	@extend .festival7;
+}
+
+// sobre nosotros
+.sobreN {
+	padding: 15px ;
+	@extend .flex1;
+	h1{
+		text-align: center;
+	}
+		p {
+			text-align: center;
+		}
+	.festival1 {
+		@extend .tamanoImg;
+	}
+
+	@media (min-width: 768px){		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+
+		div	{
+			width: 50%;
+		}
+		img {
+			width: 50%;
+		}
+	}
+
+}
+
+
+
+// contactanos
+
+.contactanos {
+	@extend .flex1;
+	padding: 15px ;
+
+	.email {
+		background-color: green;
+
+	}
+	
+
+		.festival2 {
+			@extend .tamanoImg;
+		}			
+			.btn1 {
+				background-color: blue;
+				color: white;
+				width: 90%;
+
+				
+			}
+	@media (min-width: 768px) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+
+
+			div	{
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+				form {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+			}
+			img {
+				width: 50%;
+				
+			}
+
+			.festival2 {
+				width: 300px;
+				height: 300px;
+			}
+
+			div .form-check  {
+				
+				display: flex;
+				flex-direction: row;
+
+			}
+
+			div .form-text {
+				
+				width: 100%;
+			}
+	}
+}
+
+
+
+
+// footer
+
+footer {
+	background-color: map-get($map:$paleta,$key:'color8');
+	height: 150px;
+	padding: 20px;
+	
+	@extend .flex1;
+	h3{
+		font-size: 0.8rem;
+		color: white;
+	}
+	img[src$=".svg"] {		
+		width: 30px;
+		height: 30px;
+	}
+
+	@media (min-width: 768px){
+		h3{
+			font-size: 1rem;
+		}
+		
+	}
+	
+	
+}
+
+
+
+

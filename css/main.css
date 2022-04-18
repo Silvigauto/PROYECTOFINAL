@@ -1,0 +1,197 @@
+.flex1, .navUl, .sobreN, .contactanos, footer, .mapa, .mainED {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.tamanoImg, .sobreN .festival1, .contactanos .festival2 {
+  width: 250px;
+  height: 200px; }
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.banner {
+  font-size: 0.7rem;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: whitesmoke; }
+  @media (min-width: 768px) {
+    .banner {
+      font-size: 1rem; } }
+
+.nav1 {
+  background-color: #002D62;
+  padding: 20px;
+  box-shadow: 1px 12px 15px -8px rgba(94, 94, 94, 0.75); }
+  .nav1 ul li a:hover {
+    transform: scale(1.1);
+    transition: 0.3s; }
+
+@media (min-width: 992px) {
+  .navUl {
+    padding-right: 70px; } }
+
+.logo {
+  width: 130px; }
+  @media (min-width: 768px) {
+    .logo {
+      width: 250px; }
+      .logo:hover {
+        transform: scale(1.1);
+        transition: 0.3s; } }
+  @media (min-width: 992px) {
+    .logo {
+      padding-left: 70px; } }
+
+@media (min-width: 280px) {
+  .festival7, .wos, .festival5 {
+    height: 300px; } }
+
+@media (min-width: 768px) {
+  .festival7, .wos, .festival5 {
+    height: 500px; } }
+
+.sobreN {
+  padding: 15px; }
+  .sobreN h1 {
+    text-align: center; }
+  .sobreN p {
+    text-align: center; }
+  @media (min-width: 768px) {
+    .sobreN {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .sobreN div {
+        width: 50%; }
+      .sobreN img {
+        width: 50%; } }
+
+.contactanos {
+  padding: 15px; }
+  .contactanos .email {
+    background-color: green; }
+  .contactanos .btn1 {
+    background-color: blue;
+    color: white;
+    width: 90%; }
+  @media (min-width: 768px) {
+    .contactanos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .contactanos div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .contactanos div form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+      .contactanos img {
+        width: 50%; }
+      .contactanos .festival2 {
+        width: 300px;
+        height: 300px; }
+      .contactanos div .form-check {
+        display: flex;
+        flex-direction: row; }
+      .contactanos div .form-text {
+        width: 100%; } }
+
+footer {
+  background-color: #002D62;
+  height: 150px;
+  padding: 20px; }
+  footer h3 {
+    font-size: 0.8rem;
+    color: white; }
+  footer img[src$=".svg"] {
+    width: 30px;
+    height: 30px; }
+  @media (min-width: 768px) {
+    footer h3 {
+      font-size: 1rem; } }
+
+.mapa {
+  background-color: green;
+  padding: 20px;
+  padding-bottom: 200px; }
+  .mapa h1 {
+    background-color: blue;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin-bottom: 20px; }
+    @media (min-width: 400px) {
+      .mapa h1 {
+        font-size: 1.9rem; } }
+    @media (min-width: 992px) {
+      .mapa h1 {
+        font-size: 2rem; } }
+  .mapa iframe {
+    width: 200px;
+    height: 200px; }
+    @media (min-width: 400px) {
+      .mapa iframe {
+        width: 370px;
+        height: 300px; } }
+    @media (min-width: 992px) {
+      .mapa iframe {
+        width: 700px;
+        height: 500px; } }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: whitesmoke;
+  text-transform: uppercase; }
+
+section {
+  margin: 30px; }
+  section h1 {
+    text-align: center;
+    padding-bottom: 30px; }
+  section th, section td {
+    text-align: center; }
+  section .btnColor {
+    background-color: green; }
+
+.artistas {
+  margin: 30px; }
+  .artistas h1 {
+    text-align: center;
+    font-size: 1rem; }
+    @media (min-width: 768px) {
+      .artistas h1 {
+        font-size: 2.5rem; } }
+  .artistas .card {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .artistas .card .btn2 {
+      background-color: green;
+      color: white; }
+  @media (min-width: 768px) {
+    .artistas .artistas1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .artistas .artistas1 .card {
+        width: 43%; } }
+
+.mainED {
+  margin-bottom: 100px;
+  margin-top: 30px; }
+  .mainED h1 {
+    font-size: 1rem;
+    text-align: center; }
+  .mainED p {
+    text-align: center; }
+  @media (min-width: 992px) {
+    .mainED h1 {
+      font-size: 2rem; } }

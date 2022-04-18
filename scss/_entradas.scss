@@ -1,0 +1,28 @@
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+section {
+	margin: 30px;
+	h1 {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	th {
+		text-align: center;
+	}
+
+	td {
+		@extend th;
+	}
+
+
+
+	.btnColor {
+		background-color: green;
+	}
+	
+	
+
+}
