@@ -1,5 +1,15 @@
 // variables, maps, mixins y extends
 
+// FONTS 
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fira+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
+$tipoLetra1: 'Roboto', sans-serif;
+$tipoLetra2: 'Akshar', sans-serif;
+$tipoLetra3: 'Fira Sans', sans-serif;
+
+
+
 $paleta: (
 	'color1': violet,
 	'color2': lightblue,
@@ -12,6 +22,7 @@ $paleta: (
  
 
 	);
+
 
 .flex1 {
 	display: flex;
@@ -31,4 +42,5 @@ $paleta: (
 	justify-content: space-evenly;
 
 }
+
 

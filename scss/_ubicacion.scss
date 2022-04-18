@@ -1,10 +1,10 @@
 .mapa {
-	background-color: green;
+	
 	padding: 20px;
 	padding-bottom: 200px;
 	@extend .flex1;
 	h1{
-		background-color: blue;
+		font-family: $tipoLetra1;
 		font-size: 1.2rem;
 		padding: 20px;
 		margin-bottom: 20px;

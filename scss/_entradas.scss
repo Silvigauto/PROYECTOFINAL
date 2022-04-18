@@ -1,28 +1,40 @@
+//cambio de color de las ul li a BS 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: whitesmoke;
     text-transform: uppercase;
 }
 section {
-	margin: 30px;
-	h1 {
-		text-align: center;
-		padding-bottom: 30px;
-	}
-
-	th {
-		text-align: center;
-	}
-
-	td {
-		@extend th;
-	}
-
-
-
-	.btnColor {
-		background-color: green;
-	}
-	
+	 margin: 30px;
 	
 
+		h1 {
+			text-align: center;
+			font-family: $tipoLetra1;
+			padding: 30px;
+
+		}
+
+		th {
+			text-align: center;
+		}
+
+		td {
+			@extend th;
+		}
+
+		.btnColor {
+			background-color: green;
+			&:hover {
+				transform: scale(1.1);
+				transition: 0.3s;
+				background-color: blue;
+			}
+		}
+	
 }
+
+
+	
+	
+	
+
