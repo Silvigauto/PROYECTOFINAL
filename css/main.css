@@ -120,6 +120,8 @@ footer {
   background-color: #002D62;
   height: 150px;
   padding: 20px; }
+  footer a {
+    text-decoration: none; }
   footer .footerH {
     font-size: 0.8rem;
     color: white;
@@ -183,11 +185,11 @@ footer {
     .entradasDiv section th, .entradasDiv section td {
       text-align: center; }
     .entradasDiv section .btnColor {
-      background-color: green; }
+      background-color: grey; }
       .entradasDiv section .btnColor:hover {
         transform: scale(1.1);
         transition: 0.3s;
-        background-color: blue; }
+        color: white; }
 
 .artistas {
   margin: 30px; }

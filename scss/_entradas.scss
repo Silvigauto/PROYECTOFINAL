@@ -49,11 +49,11 @@
  		}
 
  		.btnColor {
- 			background-color: green;
+ 			background-color: grey;
  			&:hover {
  				transform: scale(1.1);
  				transition: 0.3s;
- 				background-color: blue;
+ 				color: white;
  			}
 		}
 

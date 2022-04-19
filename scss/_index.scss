@@ -197,6 +197,10 @@ footer {
 	padding: 20px;	
 	@extend .flex1;
 
+	a{
+		text-decoration: none;
+	}
+
 	.footerH{
 		font-size: 0.8rem;
 		color: white;
@@ -206,7 +210,6 @@ footer {
 	img[src$=".svg"] {		
 		width: 30px;
 		height: 30px;
-
 	}
 
 	@media (min-width: 768px){
