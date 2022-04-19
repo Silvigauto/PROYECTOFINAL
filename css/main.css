@@ -161,20 +161,33 @@ footer {
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
   color: whitesmoke; }
 
-section {
-  margin: 30px; }
-  section h1 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    padding: 30px; }
-  section th, section td {
-    text-align: center; }
-  section .btnColor {
-    background-color: green; }
-    section .btnColor:hover {
-      transform: scale(1.1);
-      transition: 0.3s;
-      background-color: blue; }
+.entradasDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "banner" "nav"  "main"  "footer"; }
+  .entradasDiv .banner {
+    grid-area: banner; }
+  .entradasDiv .nav1 {
+    grid-area: nav; }
+  .entradasDiv main {
+    grid-area: main; }
+  .entradasDiv footer {
+    grid-area: footer; }
+  .entradasDiv section {
+    margin: 30px; }
+    .entradasDiv section h1 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      padding: 30px; }
+    .entradasDiv section th, .entradasDiv section td {
+      text-align: center; }
+    .entradasDiv section .btnColor {
+      background-color: green; }
+      .entradasDiv section .btnColor:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        background-color: blue; }
 
 .artistas {
   margin: 30px; }

@@ -3,35 +3,65 @@
     color: whitesmoke;
     
 }
-section {
-	 margin: 30px;
+
+.entradasDiv {
 	
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"banner"
+	"nav" 
+	"main" 
+	"footer";
 
-		h1 {
+	.banner {
+		grid-area: banner;
+	}
+
+	.nav1 {
+		grid-area: nav;
+	}
+
+	main {
+		grid-area: main;
+	}
+
+	footer {
+		grid-area: footer;
+	}
+
+	section {
+		margin: 30px;
+
+		h1{
 			text-align: center;
-			font-family: $tipoLetra1;
-			padding: 30px;
-
+ 			font-family: $tipoLetra1;
+ 			padding: 30px;
 		}
 
 		th {
-			text-align: center;
+ 			text-align: center;
+ 		}
+
+ 		td {
+ 			@extend th;
+ 		}
+
+ 		.btnColor {
+ 			background-color: green;
+ 			&:hover {
+ 				transform: scale(1.1);
+ 				transition: 0.3s;
+ 				background-color: blue;
+ 			}
 		}
 
-		td {
-			@extend th;
-		}
+	}
 
-		.btnColor {
-			background-color: green;
-			&:hover {
-				transform: scale(1.1);
-				transition: 0.3s;
-				background-color: blue;
-			}
-		}
-	
 }
+
+
 
 
 	
