@@ -163,33 +163,27 @@ footer {
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
   color: whitesmoke; }
 
-.entradasDiv {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "banner" "nav"  "main"  "footer"; }
-  .entradasDiv .banner {
-    grid-area: banner; }
-  .entradasDiv .nav1 {
-    grid-area: nav; }
-  .entradasDiv main {
-    grid-area: main; }
-  .entradasDiv footer {
-    grid-area: footer; }
-  .entradasDiv section {
-    margin: 30px; }
-    .entradasDiv section h1 {
-      text-align: center;
-      font-family: "Roboto", sans-serif;
-      padding: 30px; }
-    .entradasDiv section th, .entradasDiv section td {
-      text-align: center; }
-    .entradasDiv section .btnColor {
-      background-color: grey; }
-      .entradasDiv section .btnColor:hover {
-        transform: scale(1.1);
-        transition: 0.3s;
-        color: white; }
+.entradasDiv section {
+  margin: 20px; }
+  .entradasDiv section h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 30px; }
+  .entradasDiv section .tableContainer {
+    overflow-x: auto; }
+    .entradasDiv section .tableContainer table {
+      background-color: green; }
+      .entradasDiv section .tableContainer table th, .entradasDiv section .tableContainer table td {
+        text-align: center; }
+      .entradasDiv section .tableContainer table .btnColor {
+        background-color: grey; }
+        .entradasDiv section .tableContainer table .btnColor:hover {
+          transform: scale(1.1);
+          transition: 0.3s;
+          color: white; }
+
+.entradasDiv footer {
+  grid-area: footer; }
 
 .artistas {
   margin: 30px; }
