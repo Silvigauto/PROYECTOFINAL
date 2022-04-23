@@ -88,7 +88,7 @@
   .contactanos .btn1 {
     background-color: blue;
     color: white;
-    width: 90%; }
+    width: 50%; }
   @media (min-width: 768px) {
     .contactanos {
       display: flex;
@@ -101,7 +101,7 @@
         flex-direction: column;
         align-items: center; }
         .contactanos div form {
-          width: 100%;
+          width: 170%;
           display: flex;
           flex-direction: column;
           align-items: center; }
@@ -114,7 +114,10 @@
         display: flex;
         flex-direction: row; }
       .contactanos div .form-text {
-        width: 100%; } }
+        width: 100%; }
+      .contactanos .form-check-label {
+        background-color: yellow;
+        margin-left: 10px; } }
 
 footer {
   background-color: #002D62;
@@ -171,16 +174,14 @@ footer {
     padding: 30px; }
   .entradasDiv section .tableContainer {
     overflow-x: auto; }
-    .entradasDiv section .tableContainer table {
-      background-color: green; }
-      .entradasDiv section .tableContainer table th, .entradasDiv section .tableContainer table td {
-        text-align: center; }
-      .entradasDiv section .tableContainer table .btnColor {
-        background-color: grey; }
-        .entradasDiv section .tableContainer table .btnColor:hover {
-          transform: scale(1.1);
-          transition: 0.3s;
-          color: white; }
+    .entradasDiv section .tableContainer table th, .entradasDiv section .tableContainer table td {
+      text-align: center; }
+    .entradasDiv section .tableContainer table .btnColor {
+      background-color: grey; }
+      .entradasDiv section .tableContainer table .btnColor:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        color: white; }
 
 .entradasDiv footer {
   grid-area: footer; }
