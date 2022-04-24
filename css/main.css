@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fira+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap");
-.flex1, .navUl, .sobreN, .contactanos, footer, .mapa, .mainED {
+.flex1, .navUl, .sobreN, .contactanos, .mapa, .mainED, footer {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -37,6 +37,9 @@
 @media (min-width: 992px) {
   .navUl {
     padding-right: 70px; } }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: whitesmoke; }
 
 .logo {
   width: 130px; }
@@ -119,24 +122,6 @@
         background-color: yellow;
         margin-left: 10px; } }
 
-footer {
-  background-color: #002D62;
-  height: 150px;
-  padding: 20px; }
-  footer a {
-    text-decoration: none; }
-  footer .footerH {
-    font-size: 0.8rem;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 20px; }
-  footer img[src$=".svg"] {
-    width: 30px;
-    height: 30px; }
-  @media (min-width: 768px) {
-    footer .footerH {
-      font-size: 1rem; } }
-
 .mapa {
   padding: 20px;
   padding-bottom: 200px; }
@@ -163,9 +148,6 @@ footer {
         width: 700px;
         height: 500px; } }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: whitesmoke; }
-
 .entradasDiv section {
   margin: 20px; }
   .entradasDiv section h1 {
@@ -182,9 +164,6 @@ footer {
         transform: scale(1.1);
         transition: 0.3s;
         color: white; }
-
-.entradasDiv footer {
-  grid-area: footer; }
 
 .artistas {
   margin: 30px; }
@@ -233,3 +212,21 @@ footer {
       flex-direction: row; }
       .mainED section iframe {
         margin: 20px; } }
+
+footer {
+  background-color: #002D62;
+  height: 150px;
+  padding: 20px; }
+  footer a {
+    text-decoration: none; }
+  footer .footerH {
+    font-size: 0.8rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px; }
+  footer img[src$=".svg"] {
+    width: 30px;
+    height: 30px; }
+  @media (min-width: 768px) {
+    footer .footerH {
+      font-size: 1rem; } }

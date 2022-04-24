@@ -1,56 +1,42 @@
-//cambio de color de las ul li a BS 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: whitesmoke;
-    
-}
 
 .entradasDiv {
 
-		section {
-			margin: 20px;
+	section {
+		margin: 20px;
 
-			h1{
-				text-align: center;
-	 			font-family: $tipoLetra1;
-	 			padding: 30px;
-			}
+		h1{
+			text-align: center;
+ 			font-family: $tipoLetra1;
+ 			padding: 30px;
+		}
 
-			.tableContainer	{
-				overflow-x: auto;
-				
-				table {
+		.tableContainer	{
+			overflow-x: auto;
+			
+			table {
 
-					th {
-			 			text-align: center;
-			 		}
+				th {
+		 			text-align: center;
+		 		}
 
-			 		td {
-			 			@extend th;
-			 		}
+		 		td {
+		 			@extend th;
+		 		}
 
-			 		.btnColor {
-			 			background-color: grey;
+		 		.btnColor {
+		 			background-color: grey;
 
-			 			&:hover {
-			 				transform: scale(1.1);
-			 				transition: 0.3s;
-			 				color: white;
-			 			}
-					}
-				} //ends table 
+		 			&:hover {
+		 				transform: scale(1.1);
+		 				transition: 0.3s;
+		 				color: white;
+		 			}
+				}
+			} //ends table 
 
-			} // ends div
+		} // ends tablecontainer
 
-
-		} // ends section
-
-
-
-	footer {
-		grid-area: footer;
-	}
-
-	
+	} // ends section
 
 } // ends contenedor principal entradasDiv
 
