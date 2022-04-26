@@ -53,6 +53,9 @@
     .logo {
       padding-left: 70px; } }
 
+.disclaimer {
+  display: none; }
+
 @media (min-width: 280px) {
   .festival7, .wos, .festival5 {
     height: 300px; } }
