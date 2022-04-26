@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fira+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap");
-.flex1, .navUl, .sobreN, .contactanos, .mapa, .mainED, footer {
+.flex1, .navUl, .sobreN, .contactanos, .mapa, .mainED, .error404, footer {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -87,7 +87,9 @@
   padding: 15px;
   font-family: "Roboto", sans-serif; }
   .contactanos h2 {
-    font-weight: 40px; }
+    text-align: center; }
+  .contactanos a {
+    text-decoration: none; }
   .contactanos .btn1 {
     background-color: blue;
     color: white;
@@ -119,7 +121,6 @@
       .contactanos div .form-text {
         width: 100%; }
       .contactanos .form-check-label {
-        background-color: yellow;
         margin-left: 10px; } }
 
 .mapa {
@@ -129,7 +130,8 @@
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     padding: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center; }
     @media (min-width: 400px) {
       .mapa h1 {
         font-size: 1.9rem; } }
@@ -158,12 +160,18 @@
     overflow-x: auto; }
     .entradasDiv section .tableContainer table th, .entradasDiv section .tableContainer table td {
       text-align: center; }
-    .entradasDiv section .tableContainer table .btnColor {
+    .entradasDiv section .tableContainer table td .btnColor {
       background-color: grey; }
-      .entradasDiv section .tableContainer table .btnColor:hover {
+      .entradasDiv section .tableContainer table td .btnColor a {
+        text-decoration: none;
+        color: black; }
+      .entradasDiv section .tableContainer table td .btnColor:hover {
         transform: scale(1.1);
         transition: 0.3s;
         color: white; }
+        .entradasDiv section .tableContainer table td .btnColor:hover a {
+          text-decoration: none;
+          color: white; }
 
 .artistas {
   margin: 30px; }
@@ -171,6 +179,9 @@
     text-align: center;
     font-size: 1rem;
     font-family: "Roboto", sans-serif; }
+    @media (min-width: 400px) {
+      .artistas h1 {
+        font-size: 2rem; } }
     @media (min-width: 768px) {
       .artistas h1 {
         font-size: 2.5rem; } }
@@ -179,7 +190,6 @@
     margin-top: 20px;
     margin-bottom: 20px; }
     .artistas .card h2 {
-      font-family: "Fira Sans", sans-serif;
       font-size: 2rem; }
     .artistas .card .btn2 {
       background-color: green;
@@ -212,6 +222,29 @@
       flex-direction: row; }
       .mainED section iframe {
         margin: 20px; } }
+
+.error404 {
+  background-color: yellow;
+  margin-top: 100px; }
+  .error404 h1 {
+    text-align: center; }
+  .error404 img {
+    width: 250px;
+    margin-top: 13px; }
+  .error404 button {
+    margin-top: 15px;
+    border-style: none;
+    padding: 10px; }
+    .error404 button a {
+      text-decoration: none;
+      color: black; }
+    .error404 button:hover {
+      background-color: green; }
+      .error404 button:hover a {
+        color: white; }
+  @media (min-width: 600px) {
+    .error404 img {
+      width: 400px; } }
 
 footer {
   background-color: #002D62;

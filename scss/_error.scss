@@ -1,0 +1,39 @@
+.error404 {
+	background-color: yellow;
+	@extend .flex1;
+	margin-top: 100px;
+	h1 {
+		text-align: center;
+	}
+	img {
+		width: 250px;
+		margin-top: 13px;
+	}
+
+	button {
+		margin-top: 15px;
+		border-style: none;
+		padding: 10px;
+		a {
+			text-decoration: none;
+			color: black;
+		}
+
+		&:hover {
+			background-color: green;
+			a {
+				color: white;
+			}
+		}
+
+	} // ends button
+
+	@media (min-width: 600px) {
+		img {
+			width: 400px;
+		}	
+	}// ends @media768px
+
+} // ends error 404
+
+
