@@ -16,6 +16,7 @@ footer {
 		font-family: $tipoLetra1;
 		margin-bottom: 20px;
 	}
+
 	img[src$=".svg"] {		
 		width: 30px;
 		height: 30px;
@@ -24,8 +25,7 @@ footer {
 	@media (min-width: 768px){
 		.footerH{
 			font-size: 1rem;
-		}
-		
+		}		
 	}
 		
 }

@@ -3,10 +3,10 @@
 	padding-top: 13px;
 	padding-bottom: 13px;
 	background-color: whitesmoke;
+
 	@media (min-width: 768px) {
 		font-size: 1rem;
 	}
-
 
 }
 
@@ -18,16 +18,13 @@
 	box-shadow:  1px 12px 15px -8px rgba(94,94,94,0.75);
 	font-family: $tipoLetra2;
 	font-size: 1.1rem;
-	
-	
-	
-ul li a:hover {		
-	transform: scale(1.1);
-	transition: 0.3s;
-	color: yellow;
-	}
-
-	
+			
+		ul li a:hover {		
+		transform: scale(1.1);
+		transition: 0.3s;
+		color: yellow;
+		}
+		
 }
 
 .navUl {
@@ -36,7 +33,6 @@ ul li a:hover {
 	@media (min-width: 992px) {
 		padding-right: 70px;
 	}
-	
 	
 }
 
@@ -51,8 +47,8 @@ ul li a:hover {
 
 	@media (min-width: 768px) {
 		width: 250px;
-		&:hover {
-			
+
+		&:hover {			
 		transform: scale(1.1);
 		transition: 0.3s;
 		}
